@@ -1,0 +1,23 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<table>
+    <thead>
+        <tr class="">
+            <th>Id</th>
+            <th>Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var project in Model.Projects)
+            {
+                <tr style="height: 60px;">
+                    <td>@project.Id</td>
+                    <td>@project.Name</td>
+                </tr>
+            }
+    </tbody>
+</table>

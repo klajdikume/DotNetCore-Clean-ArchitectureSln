@@ -1,0 +1,5 @@
+Application will take care of interfaces, services, business rules
+Domain -> Entities, Data knows how to access data
+IoC -> dependency injection
+
+UI
